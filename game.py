@@ -23,7 +23,7 @@ BLUE2 = (0, 100, 255)
 BLACK = (0,0,0)
 
 BLOCK_SIZE = 20
-SPEED = 10  
+SPEED = 15  
 MAX_PAUSE = 500
 
 class SnakeGameAI:
@@ -74,7 +74,11 @@ class SnakeGameAI:
         # 3. check if game over
         reward = 0
         game_over = False
-        if self.is_collision() or self.frame_iter > MAX_PAUSE:
+        if self.frame_iter > MAX_PAUSE and self.score <= 15:
+            game_over = True
+            reward = -20
+            return reward, game_over, self.score
+        if self.is_collision():
             game_over = True
             reward = -10
             return reward, game_over, self.score
@@ -82,7 +86,7 @@ class SnakeGameAI:
         # 4. place new food or just move
         if self.head == self.food:
             self.score += 1
-            reward = 10
+            reward = 20
             self._place_food()
         else:
             self.snake.pop()
