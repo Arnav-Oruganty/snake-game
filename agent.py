@@ -1,4 +1,3 @@
-
 import torch
 import random
 import numpy as np
@@ -138,9 +137,9 @@ def train():
             print('Game', agent.n_games, 'Score', score, 'Record:', record)
 
             plot_scores.append(score)
-            rolling_avg = sum(plot_scores[-30:])
+            rolling_avg = sum(plot_scores[-30:])/min(agent.n_games, 30)
             plot_mean_scores.append(rolling_avg)
-            plot(plot_scores, rolling_avg)
+            plot(plot_scores, plot_mean_scores)
 
 
 if __name__ == '__main__':
