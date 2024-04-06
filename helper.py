@@ -5,7 +5,7 @@ plt.ion()
 
 def plot(scores, mean_scores):
     plt.clf()
-    plt.plot(scores, label='Score', color='cornflowerblue', alpha=0.7, linewidth=1.5, linestyle='-')
+    plt.plot(scores, label='Score', color='blue', alpha=0.7, linewidth=1.5, linestyle='-')
     plt.plot(mean_scores, label='Mean Score', color='orange', alpha=0.7, linewidth=2, linestyle='-')
     plt.text(len(scores) - 1, scores[-1], f'{scores[-1]}', ha='center', va='bottom', fontsize=10, color='blue',
              weight='bold')
