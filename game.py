@@ -24,7 +24,7 @@ BLACK = (0,0,0)
 
 BLOCK_SIZE = 20
 SPEED = 10  
-MAX_PAUSE = 10000
+MAX_PAUSE = 500
 
 class SnakeGameAI:
     
