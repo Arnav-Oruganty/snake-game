@@ -17,7 +17,7 @@ def plot(scores, mean_scores):
     plt.title('Training Progress', fontsize=14)
     plt.xlabel('Number of Games', fontsize=10)
     plt.ylabel('Score', fontsize=10)
-    plt.ylim(0, max(max(scores), max(mean_scores)) * 1.1)
+    plt.ylim(ymin=0)
     plt.tight_layout()
     display.clear_output(wait=True)
     display.display(plt.gcf())
