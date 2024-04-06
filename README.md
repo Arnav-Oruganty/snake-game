@@ -4,9 +4,9 @@
 Machine Learning (ML)
 
 ## Contributors:
-* Subhash Hari
-* Gourav Anirudh
 * Arnav Oruganty
+* Gourav Anirudh
+* Subhash Hari
 
 ## Introduction:
 Our project is based on the concept of reinforcement learning, in which we are training our ML model to play the famous snake game. Initially, the model performs very inaccurately and inconsistently. But, as the model plays more games, the accuracy and consistancy keeps increasing.
