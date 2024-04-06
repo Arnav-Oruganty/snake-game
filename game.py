@@ -21,6 +21,7 @@ RED = (200,0,0)
 BLUE1 = (0, 0, 255)
 BLUE2 = (0, 100, 255)
 BLACK = (0,0,0)
+background = (50, 205, 50)
 
 BLOCK_SIZE = 20
 SPEED = 15  
@@ -110,7 +111,7 @@ class SnakeGameAI:
         return False
         
     def _update_ui(self):
-        self.display.fill(BLACK)
+        self.display.fill(background)
         
         for pt in self.snake:
             pygame.draw.rect(self.display, BLUE1, pygame.Rect(pt.x, pt.y, BLOCK_SIZE, BLOCK_SIZE))
