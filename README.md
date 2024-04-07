@@ -44,4 +44,4 @@ Our idea can further be extended to train the system agent to control other game
 * We would like to end by saying that even though our idea does not seem as complicated as some others, we built everything including the game from the ground up as compared to others who have just used a bunch of pre-trianed models and combined them, also we feel that our project is more aligned with the track 'ML' than some others who have just built a great UI for their models.
 
 ## Demo Video:
---(upload youtube link)--
+* https://youtu.be/b_aoi2JPUTY
