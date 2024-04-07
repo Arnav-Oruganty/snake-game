@@ -1,4 +1,4 @@
-# Training AI to play the snake game.
+#  Using the concepts of Reinforcement learning to train a system agent to play the Snak game.
 
 ##  Track:
 Machine Learning (ML)
