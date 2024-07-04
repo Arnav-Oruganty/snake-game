@@ -1,4 +1,5 @@
 #  Applying the concepts of Deep Q-learning to train a system agent to play the Snake game.
+### (This project was made by us when we participated in a hackathon)
 
 ##  Track:
 Machine Learning (ML)
@@ -33,7 +34,7 @@ Our aim was to successfully use the concepts of Deep Q-learning and train a syst
 * Let the model learn for a while, upto about 150 games and be amazed by the results.
 
 ## Applications:
-This project built an ML model that plays Snake, but it's more than just a game. The real strength is its flexibility. By changing the game's settings, how the model gets rewarded, and the complexity of its brain (the neural network), this system could be used for other games too. We started with Snake to build a strong foundation. In the future, this system could be used to solve puzzles, master different game types, or even learn to compete against itself. This project opens the door to exciting possibilities in machine learning and game AI.
+This project built an ML model that plays the Snake game, but it's more than just a game. The real strength is its flexibility. By changing the game's settings, how the model gets rewarded, and the complexity of its brain (the neural network), this system could be used for other games too. We started with the Snake game to build a strong foundation. In the future, this system could be used to solve puzzles, master different game types, or even learn to compete against itself. This project opens the door to exciting possibilities in machine learning and game AI.
 
 ## Further Improvements:
 * We could have had a better UI for the game or even chosen a more complicated game.
