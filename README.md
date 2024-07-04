@@ -33,7 +33,7 @@ Our aim was to successfully use the concepts of Deep Q-learning and train a syst
 * Let the model learn for a while, upto about 150 games and be amazed by the results.
 
 ## Applications:
-Our idea can further be extended to train the system agent to control other games by just changing the game state parameters, the reward function and the complexity of the neural network, we went with a simpler game as this was our first hackathon and we wanted to implement everything from scratch. 
+This project built an ML model that plays Snake, but it's more than just a game. The real strength is its flexibility. By changing the game's settings, how the model gets rewarded, and the complexity of its brain (the neural network), this system could be used for other games too. We started with Snake to build a strong foundation. In the future, this system could be used to solve puzzles, master different game types, or even learn to compete against itself. This project opens the door to exciting possibilities in machine learning and game AI.
 
 ## Further Improvements:
 * We could have had a better UI for the game or even chosen a more complicated game.
@@ -41,7 +41,7 @@ Our idea can further be extended to train the system agent to control other game
 * We could have implemented the model such that it was more accurate by either adding more layers to the neural network or even optimising the reward function, we could have also exploited the tradeoff between exploration and exploitation to try more random things at the start. 
 
 ## Conclusion
-* We would like to end by saying that even though our idea does not seem as complicated as some others, we built everything including the game from the ground up as compared to others who have just used a bunch of pre-trianed models and combined them, also we feel that our project is more aligned with the track 'ML' than some others who have just built a great UI for their models.
+* This project successfully implemented a machine learning model capable of playing the Snake game. The model demonstrates the ability to learn and improve its performance over time, as evidenced by the increasing scores depicted in the progress graph. While the current implementation focuses on the core elements of the game, it lays a strong foundation for further development. Future iterations could explore incorporating more complex strategies, introducing obstacles, or even evolving the model to compete against itself or other AI players. Overall, this project serves as a valuable exploration of machine learning in a simple yet engaging environment.
 
 ## Demo Video:
 * https://youtu.be/b_aoi2JPUTY
