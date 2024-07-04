@@ -1,5 +1,5 @@
 #  Applying the concepts of Deep Q-learning to train a system agent to play the Snake game.
-### (This project was made by us when we participated in a hackathon)
+** (This project was made by us when we participated in a hackathon)
 
 ##  Track:
 Machine Learning (ML)
